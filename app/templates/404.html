@@ -1,0 +1,47 @@
+<html lang="kr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="{{url_for('static', filename='favicon.ico')}}">
+    <title>URL Shortener</title>
+    <link href="{{url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static', filename='css/custom.min.css')}}" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <img src="./static/img/Smilegate_logo.png" width="250px">
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1>404 Error : Page Not Found</h1>
+          </div>
+
+          <div class="mastfoot">
+          	<div class="inner">
+            	<center><h4>{{number}} Links Shortened</h4></center>
+              	<p>Developed by <a href="https://github.com/tmfdk333">Seul A Kim</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
+    <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+
+    <script src="{{url_for('static', filename='js/clipboard.min.js')}}"></script>
+    <script src="{{url_for('static', filename='js/custom.min.js')}}"></script>
+  </body>
+</html>

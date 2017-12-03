@@ -1,0 +1,5 @@
+Flask
+flask-sqlalchemy
+Flask-WTF
+pymysql
+markupsafe
