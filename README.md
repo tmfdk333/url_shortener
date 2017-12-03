@@ -49,7 +49,7 @@ CREATE DATABASE smilegate;
 ```
 * 데이터베이스 사용자를 생성하고 권한 부여하기
 ```sql
-GRANT ALL ON smilegate.* TO @localhost IDENTIFIED BY 'userpw';
+GRANT ALL ON smilegate.* TO userid@localhost IDENTIFIED BY 'userpw';
 ```
 #### 2. config.py 파일 설정하기
 * 사용자 수정하기
