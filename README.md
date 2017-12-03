@@ -1,4 +1,4 @@
-#[스마일게이트] url-shortener(Github)
+# [스마일게이트] url-shortener(Github)
 
 > * python3, Mysql
 
@@ -16,15 +16,15 @@
 - [x] 원래 URL이 404 코드를 받을 경우 사용자에게 표시
 
 ## ScreenShot
-![Screenshot1](./screenshot1.png)
-![Screenshot3](./screenshot3.png)
-![Screenshot2](./screenshot2.png)
+![Screenshot1](http://dl.dropbox.com/s/zl06w12e3gv49bs/screenshot1.png)
+![Screenshot3](http://dl.dropbox.com/s/hmtjb5p4vmxx9wd/screenshot3.png)
+![Screenshot2](http://dl.dropbox.com/s/q56vm4szm2ya6db/screenshot2.png)
 ## Code
 ### Utils.py
 * **count_db_short_url** : DB에 있는 단축 url의 개수를 출력
 * **request_url** :  입력 받은 url이 정상적으로 작동하는 링크인지 확인.
 * **generate\_random\_string** : 단축 url을 만들기 위해서 입력 받은 길이만큼 랜덤하게 string을 생성.
-* **check_short_url** 
+* **check_short_url**
 	1. 입력받은 URL이 DB에 저장되어 있는지 확인
 		* 저장되어 있다면 DB에 저장된 단축 Url을 리턴
 	2. 저장되어 있지 않다면 generate\_random\_string을 이용하여 임의의 문자열을 생성
