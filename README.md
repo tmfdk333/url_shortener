@@ -16,9 +16,9 @@
 - [x] 원래 URL이 404 코드를 받을 경우 사용자에게 표시
 
 ## ScreenShot
-![Screenshot1](http://dl.dropbox.com/s/zl06w12e3gv49bs/screenshot1.png)
-![Screenshot3](http://dl.dropbox.com/s/hmtjb5p4vmxx9wd/screenshot3.png)
-![Screenshot2](http://dl.dropbox.com/s/q56vm4szm2ya6db/screenshot2.png)
+![Screenshot1](https://dl.dropbox.com/s/nfed4l5l68p2pg7/screenshot1.png)
+![Screenshot2](https://dl.dropbox.com/s/yyybkgebmrlry78/screenshot2.png)
+![Screenshot3](https://dl.dropbox.com/s/ffw2dn4be99dl5l/screenshot3.png)
 ## Code
 ### Utils.py
 * **count_db_short_url** : DB에 있는 단축 url의 개수를 출력
