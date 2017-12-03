@@ -1,4 +1,4 @@
-# [스마일게이트] url-shortener(Github)
+# [Smilegate] url-shortener
 
 > * python3, Mysql
 
