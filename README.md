@@ -1,6 +1,6 @@
-# [Smilegate] url-shortener
+# [Smilegate] Url Shortener
 
-> * python3, Mysql
+> python3, Mysql
 
 ## Assignment
 #### URL 단축 (URL shortening) 서비스 개발
@@ -18,9 +18,9 @@
 
 ## [DEMO 확인하기](http://13.125.81.144:5000/)
 ## ScreenShot
-![Screenshot1](https://dl.dropbox.com/s/nfed4l5l68p2pg7/screenshot1.png)
-![Screenshot2](https://dl.dropbox.com/s/yyybkgebmrlry78/screenshot2.png)
-![Screenshot3](https://dl.dropbox.com/s/ffw2dn4be99dl5l/screenshot3.png)
+![Screenshot1](http://dl.dropbox.com/s/nfed4l5l68p2pg7/screenshot1.png)
+![Screenshot2](http://dl.dropbox.com/s/yyybkgebmrlry78/screenshot2.png)
+![Screenshot3](http://dl.dropbox.com/s/ffw2dn4be99dl5l/screenshot3.png)
 ## Code
 ### utils.py
 * **count_db_short_url** : DB에 있는 단축 url의 개수를 출력
@@ -48,11 +48,6 @@
 ```powershell
 pip3 install -r requirements.txt
 ```
-
-## ToDo
-- [ ] 링크의 클릭 횟수 표시하기
-- [ ] 메인 페이지에 단축 url 테이블 보여주기
-- [ ] url 단축 결과를 보여주면서, url의 스크린샷도 함께 보여주기
 
 ## Configuration
 #### 1. MySQL 데이터베이스 설정
@@ -84,3 +79,8 @@ python3 database.py
 python3 run.py
 ```
 >  \* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+## ToDo
+- [ ] 링크의 클릭 횟수 표시하기
+- [ ] 메인 페이지에 단축 url 테이블 보여주기
+- [ ] url 단축 결과를 보여주면서, url의 스크린샷도 함께 보여주기
